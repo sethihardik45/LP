@@ -10,9 +10,8 @@
   var page = el("div", "page");
 
   var top = el("header", "top");
-  var logo = el("img"); logo.src = "../assets/logo.svg"; logo.alt = "";
+  var logo = el("img"); logo.src = "../assets/logo.webp"; logo.alt = "Pandit Ji";
   top.appendChild(logo);
-  top.appendChild(el("span", null, "Astrotalk"));
   page.appendChild(top);
 
   var hero = el("div", "hero");
