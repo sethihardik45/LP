@@ -26,11 +26,6 @@
   page.appendChild(name);
   page.appendChild(el("div", "bar"));
 
-  if (a.skills && a.skills.length) {
-    var s = el("div", "skills");
-    a.skills.forEach(function (t) { s.appendChild(el("div", null, t)); });
-    page.appendChild(s);
-  }
 
   var cta = el("a", "cta", a.ctaText || ("Talk to " + a.name));
   cta.href = a.ctaLink || "#";

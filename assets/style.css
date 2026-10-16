@@ -10,7 +10,4 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Poppins",s
 .name .role{display:block;color:var(--orange);font-style:italic;font-weight:600;font-size:2rem;line-height:1.2}
 .name h1{margin:2px 0 0;font-size:2rem;font-weight:700;line-height:1.2}
 .bar{width:84px;height:5px;border-radius:3px;background:var(--orange);margin:22px auto 0}
-.skills{display:flex;margin:32px 16px 0;border:1px solid var(--line);border-radius:14px;background:var(--card);overflow:hidden}
-.skills div{flex:1;text-align:center;padding:22px 6px;font-weight:600;font-size:.95rem;color:var(--orange-d);border-left:1px solid var(--line)}
-.skills div:first-child{border-left:0}
 .cta{display:block;margin:32px 16px 40px;padding:26px 12px;text-align:center;background:linear-gradient(135deg,#fb923c,var(--orange-d));color:#fff;text-decoration:none;font-weight:700;font-size:1.3rem;border-radius:99px;box-shadow:0 8px 28px rgba(249,115,22,.4)}
