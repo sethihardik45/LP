@@ -15,9 +15,18 @@
   page.appendChild(top);
 
   var hero = el("div", "hero");
-  if (a.photo) hero.style.backgroundImage = "url('" + a.photo.replace(/'/g, "%27") + "')";
-  hero.setAttribute("role", "img");
-  hero.setAttribute("aria-label", a.name || "");
+  if (a.photoStyle === "circle") {
+    // For cut-out / round photos: shown as a circle on an orange backdrop
+    hero.className = "hero hero-circle";
+    var ph = el("img", "circle-photo");
+    ph.src = a.photo || "";
+    ph.alt = a.name || "";
+    hero.appendChild(ph);
+  } else {
+    if (a.photo) hero.style.backgroundImage = "url('" + a.photo.replace(/'/g, "%27") + "')";
+    hero.setAttribute("role", "img");
+    hero.setAttribute("aria-label", a.name || "");
+  }
   page.appendChild(hero);
 
   var name = el("div", "name");

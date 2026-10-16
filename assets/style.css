@@ -11,3 +11,5 @@ html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Poppins",s
 .name h1{margin:2px 0 0;font-size:2rem;font-weight:700;line-height:1.2}
 .bar{width:84px;height:5px;border-radius:3px;background:var(--orange);margin:22px auto 0}
 .cta{display:block;margin:32px 16px 40px;padding:26px 12px;text-align:center;background:linear-gradient(135deg,#fb923c,var(--orange-d));color:#fff;text-decoration:none;font-weight:700;font-size:1.3rem;border-radius:99px;box-shadow:0 8px 28px rgba(249,115,22,.4)}
+.hero-circle{aspect-ratio:auto;padding:36px 0 96px;display:flex;justify-content:center;background:radial-gradient(circle at 50% 40%,#fdba74 0%,#fb923c 45%,#f97316 100%)}
+.hero-circle .circle-photo{position:relative;z-index:1;width:76%;aspect-ratio:1;border-radius:50%;object-fit:cover;background:#fff;border:6px solid #fff;box-shadow:0 10px 36px rgba(124,45,18,.35)}
